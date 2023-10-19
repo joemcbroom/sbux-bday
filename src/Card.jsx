@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className='w-full mx-auto shadow bg-neutral-100 rounded p-4 relative z-20 overflow-hidden space-y-8'>
+    <div className='w-full mx-auto shadow-xl bg-neutral-100 rounded p-4 relative z-20 overflow-hidden space-y-8'>
       <div>
         <p className='text-2xl text-sbux-gold font-mali'>JOIN US FOR A</p>
         <p className='text-5xl text-sbux-coral font-great-vibes pl-6 my-2'>
@@ -21,7 +21,7 @@ const Card = () => {
           </span>
         </p>
       </div>
-      <div className='flex border-b-2 border-dashed border-sbux-coral pb-2 w-9/12'>
+      <div className='flex border-b-2 gap-2 border-dashed border-sbux-coral pb-2 w-9/12'>
         <div className='text-center border-r-2 border-dashed border-sbux-coral p-2'>
           <p className='text-sbux-coral font-mali text-sm leading-none'>
             SATURDAY
@@ -59,16 +59,16 @@ const Card = () => {
         </a>
       </div>
       <img
-        src='/refresher1.png'
-        className='absolute top-32 left-1 w-28 rotate-[30deg] z-10'
+        src='/refresher3.png'
+        className='absolute top-20 -left-16 w-64 rotate-[40deg] z-10'
       />
       <img
         src='/refresher2.png'
-        className='absolute -top-16 -right-6 w-40 -rotate-[160deg]'
+        className='absolute -top-32 -right-24 w-68 -rotate-[160deg]'
       />
       <img
-        src='/refresher3.png'
-        className='absolute -bottom-8 -right-16 w-56'
+        src='/refresher1.png'
+        className='absolute -bottom-32 -right-11 w-56'
       />
     </div>
   );
