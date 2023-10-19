@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fall-speed: 60s;
+}
+
+/* falling animation, slowly moving down at fall speed */
+.falling {
+  animation: falling var(--fall-speed) linear infinite;
+}
+
+@keyframes falling {
+  0% {
+    transform: translateY(-100vh);
+  }
+
+  100% {
+    transform: translateY(100vh);
+  }
+}
