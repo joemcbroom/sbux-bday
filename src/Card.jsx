@@ -16,10 +16,8 @@ const Card = () => {
         </p>
         <p className='w-full text-right'>
           <span className='text-6xl flex justify-end text-sbux-gold font-righteous'>
-            12
-            <span className='text-2xl'>
-              th <span className='text-sbux-coral'>BIRTHDAY</span>
-            </span>
+            8<span className='text-xl self-start'>th </span>
+            <span className='text-sbux-coral text-3xl pt-1 pl-1'>BIRTHDAY</span>
           </span>
         </p>
       </div>
